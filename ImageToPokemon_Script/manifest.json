@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Pokestension",
+  "version": "0.1",
+  "web_accessible_resources": [
+    "pokemonGifs/*gif"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [ "content.js" ]
+    }
+  ]
+}
