@@ -9,19 +9,9 @@
 
 
 
+console.log(document.getElementById("image"));
 
-document.getElementById("page-container").classList.remove('container');
-document.getElementsByTagName("img")[1].style.width = "100%";
-document.getElementsByTagName("img")[1].style.maxWidth = "none";
-document.addEventListener("keydown", keyDownTextField, false);
-
-function keyDownTextField(e) {
-var keyCode = e.keyCode;
-  if(keyCode==39 || keyCode == 37) {
-  location.reload();
-  } 
-}
-
+document.getElementById("image").width = 1100;
 
 	/*
 

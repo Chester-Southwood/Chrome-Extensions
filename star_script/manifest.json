@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Demo Background Chrome Extension",
+  "name": "Star",
   "version": "0.02",
   "content_scripts": [
     {
       "matches": [
-        "https://nhentai.net/g/*"
+        "https://svtfoe.booru.org/index.php?page=post&s=view&id=*"
       ],
       "js": [ "content.js" ]
     }
