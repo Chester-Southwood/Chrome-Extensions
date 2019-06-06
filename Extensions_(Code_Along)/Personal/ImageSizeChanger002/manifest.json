@@ -1,0 +1,13 @@
+{
+    "name": "Image Sizer",
+    "version": "1.0",
+    "manifest_version":2,
+    "description": "Used to minimize images too big for screen",
+    "permissions":["contextMenus"],
+    "background":
+    {
+        "scripts": ["size.js"]
+    }
+    
+}
+

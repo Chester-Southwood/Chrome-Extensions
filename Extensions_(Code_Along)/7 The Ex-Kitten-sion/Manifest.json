@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "ContextMenuAttempt",
+    "version": "1.0",
+    "description": "First Attempt at doing Context Menu",
+    "web_accessible_resources":["Pokemon/*.png"],
+    "browser_action":{"default_icon": "Pokemon/Ivysaur.png"},
+    "permissions": ["contextMenus"],
+    "background":{"scripts":["content.js"]}
+}

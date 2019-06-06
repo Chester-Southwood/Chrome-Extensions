@@ -1,0 +1,11 @@
+Bookmarklet: Essentailly a anonymous javascript
+function is executed by a button or a Bookmark
+when pressed.
+
+In the address bar, you can execute javascript
+directly. java:(function(){alert('Hello World')})
+This is essentailly also what a bookmarklet is.
+
+An a herf can have a javascript function, same as
+the address bar.
+<a href="(function(){alert('Hello World')})">

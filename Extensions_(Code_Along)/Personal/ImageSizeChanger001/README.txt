@@ -1,0 +1,2 @@
+Description:Simple javascript extension that will resize image width in increasing multiple of 25% till it resets back to original to repeat.
+Main purpose was practice with addListenerEvent method, debugging, and substrings.
